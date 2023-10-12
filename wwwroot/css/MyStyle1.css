@@ -11,16 +11,22 @@ body {
     }
 }
 .Menu-Navegacion div ul {
-    display:initial;
-    list-style:none;
+    display: initial;
+    padding-inline-start: 0;
 }
 .Menu-Navegacion div ul li {
-    font-size: 25px;
+        font-size: 25px;
+        display: inline;
 }
 .Menu-btn:link {
     /*Quitamos las lineas de los links */
     text-decoration: none;
     color: rgb(255,255,255);
+    transition: color 0.5s ease;
+}
+
+.Menu-btn:visited {
+    color: #fff;
 }
 
 .Menu-btn:hover {
@@ -29,4 +35,23 @@ body {
 
 .Menu-btn:active {
     color: rgb(34,0, 108);
+}
+
+#Acerca_De:link {
+    text-decoration: none;
+    color: rgb(109, 57, 176);
+    transition: color 0.5s ease;
+}
+
+#Acerca_De:visited {
+    color: rgb(109, 57, 176);
+}
+
+#Acerca_De:hover {
+    color: rgb(34,0, 108);
+}
+
+
+#Acerca_De:active {
+    color: rgb(255,255,255);
 }
