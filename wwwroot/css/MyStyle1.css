@@ -1,0 +1,32 @@
+﻿/*Fuente importada de Google Fonts*/
+/*Font-Family: Garabito*/
+body {
+    margin:0px;
+    font-family:'Gabarito';
+    background-color: rgba(0,0,0,0.9);
+}
+
+@media (min-width: 768px) {
+    html {
+    }
+}
+.Menu-Navegacion div ul {
+    display:initial;
+    list-style:none;
+}
+.Menu-Navegacion div ul li {
+    font-size: 25px;
+}
+.Menu-btn:link {
+    /*Quitamos las lineas de los links */
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.Menu-btn:hover {
+    color: rgb(109, 57, 176);
+}
+
+.Menu-btn:active {
+    color: rgb(34,0, 108);
+}

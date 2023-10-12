@@ -9,13 +9,13 @@ namespace Portafolio_SAEG.Datos_Utilidades
         {
             _cadenaSql = configuration.GetConnectionString("cadenaSql");
         }
-        public List<DesarrolladorModel> Listar()
+        /*public List<DesarrolladorModel> Listar()
         {
             List<DesarrolladorDatos> lista = new List<DesarrolladorDatos>();
             using (var conexion = new SqlConnection(_cadenaSql))
             {
 
             }
-        }
+        }*/
     }
 }
